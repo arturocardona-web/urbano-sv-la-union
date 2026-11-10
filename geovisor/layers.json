@@ -36,6 +36,24 @@
   "external_references": [],
   "layers": [
     {
+      "id": "sv-union-distritos-osm",
+      "title": "Límite distrital referencial: Conchagua y La Unión (OSM ODbL)",
+      "group": "Ámbito de estudio",
+      "format": "geojson",
+      "geometry_type": "polygon",
+      "status": "en_revision",
+      "source_path": "geovisor/capas/conchagua_la_union_osm.geojson",
+      "expected_file_hint": "geovisor/capas/conchagua_la_union_osm.geojson",
+      "resolution": "Vectorial distrital referencial (~36.578 ha, EPSG:4326)",
+      "style": {
+        "fill_color": "#007F8B",
+        "fill_opacity": 0.18,
+        "stroke_color": "#14283F",
+        "stroke_width": 2.2
+      },
+      "caveat": "Fuente externa abierta: OpenStreetMap contributors (ODbL). Acotado a Conchagua y La Unión (La Unión Sur) conforme S19; sujeto a homologación con CNR/MIVI."
+    },
+    {
       "id": "sv-union-limites-distritales",
       "title": "Límite distrital acordado: Conchagua y La Unión (La Unión Sur)",
       "group": "Ámbito de estudio",

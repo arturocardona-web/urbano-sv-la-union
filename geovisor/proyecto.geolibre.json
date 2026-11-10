@@ -1,48 +1,75 @@
 {
-  "version": "1.0.0",
-  "id": "geolibre-sv-la-union",
-  "name": "El Salvador · La Unión y Conchagua: asentamientos costeros",
   "description": "La iniciativa estudia los cambios de los asentamientos humanos en Conchagua y La Unión para aportar información sobre ocupación del suelo, amenazas y condiciones territoriales a la planificación del sector oriental costero.",
-  "metadata": {
-    "project_id": "sv-la-union",
-    "community": "Comunidad Urbana Copernicus Centroamérica",
-    "referential_frame_only": true,
-    "note": "Centroide declarado en formulario S19: 13.26047, -88.22988; ámbito acotado estrictamente a los distritos de Conchagua y La Unión (Municipio de La Unión Sur, ≈ 35.194 ha). El antecedente S18 de toda la franja costera no se mezcla con este alcance."
-  },
+  "id": "geolibre-sv-la-union",
+  "layers": [
+    {
+      "id": "sv-union-distritos-osm",
+      "name": "Límite distrital referencial: Conchagua y La Unión (OSM ODbL)",
+      "source": "sv-union-distritos-osm",
+      "status": "en_revision",
+      "style": {
+        "fill_color": "#007F8B",
+        "fill_opacity": 0.18,
+        "stroke_color": "#14283F",
+        "stroke_width": 2.2
+      },
+      "visible": true
+    }
+  ],
   "map": {
-    "engine": "maplibre",
+    "basemap": "carto-positron",
+    "bearing": 0,
     "center": [
       -87.865,
       13.315
     ],
-    "zoom": 10.6,
-    "bearing": 0,
+    "engine": "maplibre",
     "pitch": 0,
-    "basemap": "carto-positron"
+    "zoom": 10.6
   },
-  "sources": {},
-  "layers": [],
+  "metadata": {
+    "community": "Comunidad Urbana Copernicus Centroamérica",
+    "note": "Centroide declarado en formulario S19: 13.26047, -88.22988; ámbito acotado estrictamente a los distritos de Conchagua y La Unión (Municipio de La Unión Sur, ≈ 35.194 ha). El antecedente S18 de toda la franja costera no se mezcla con este alcance.",
+    "project_id": "sv-la-union",
+    "referential_frame_only": false,
+    "schema_version": "1.0.0"
+  },
+  "name": "El Salvador · La Unión y Conchagua: asentamientos costeros",
   "planned_layers": [
     {
-      "id": "sv-union-limites-distritales",
-      "title": "Límite distrital acordado: Conchagua y La Unión (La Unión Sur)",
-      "status": "en_preparacion",
+      "caveat": "Fuente externa abierta: OpenStreetMap contributors (ODbL). Acotado a Conchagua y La Unión (La Unión Sur) conforme S19; sujeto a homologación con CNR/MIVI.",
+      "expected_file_hint": "geovisor/capas/conchagua_la_union_osm.geojson",
+      "id": "sv-union-distritos-osm",
+      "status": "en_revision",
+      "title": "Límite distrital referencial: Conchagua y La Unión (OSM ODbL)"
+    },
+    {
+      "caveat": "Acotado a Conchagua y La Unión conforme S19.",
       "expected_file_hint": "geovisor/data/conchagua_la_union_limites.geojson",
-      "caveat": "Acotado a Conchagua y La Unión conforme S19."
+      "id": "sv-union-limites-distritales",
+      "status": "en_preparacion",
+      "title": "Límite distrital acordado: Conchagua y La Unión (La Unión Sur)"
     },
     {
-      "id": "sv-union-inventario-ah",
-      "title": "Inventario y delimitación actualizada de asentamientos humanos",
-      "status": "en_preparacion",
+      "caveat": "Sujeto a definición de nivel de acceso público/institucional antes de publicar atributos detallados.",
       "expected_file_hint": "geovisor/data/asentamientos_conchagua_la_union.geojson",
-      "caveat": "Sujeto a definición de nivel de acceso público/institucional antes de publicar atributos detallados."
+      "id": "sv-union-inventario-ah",
+      "status": "en_preparacion",
+      "title": "Inventario y delimitación actualizada de asentamientos humanos"
     },
     {
-      "id": "sv-union-amenazas-aptitud",
-      "title": "Cruce con amenazas y condiciones de ocupación del suelo",
-      "status": "en_preparacion",
+      "caveat": "Insumo analítico para MIVI/DOT/FONAVIPO; no constituye zonificación normativa aprobada.",
       "expected_file_hint": "geovisor/data/caracterizacion_amenazas_la_union.geojson",
-      "caveat": "Insumo analítico para MIVI/DOT/FONAVIPO; no constituye zonificación normativa aprobada."
+      "id": "sv-union-amenazas-aptitud",
+      "status": "en_preparacion",
+      "title": "Cruce con amenazas y condiciones de ocupación del suelo"
     }
-  ]
+  ],
+  "sources": {
+    "sv-union-distritos-osm": {
+      "type": "geojson",
+      "url": "/geovisor/capas/conchagua_la_union_osm.geojson"
+    }
+  },
+  "version": "1.0.0"
 }
