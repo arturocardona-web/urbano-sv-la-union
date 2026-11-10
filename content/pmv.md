@@ -6,7 +6,7 @@ No se recibió backlog para esta iniciativa. Las tareas que Antigravity derive d
 
 ## Especificación de módulos de aplicación
 
-Estos componentes constituyen una propuesta de interfaz basada en el perfil. La primera versión entrega una página de proyecto completa y espacios de integración. Activar un mapa, indicador, descarga o simulador únicamente cuando exista el dato o servicio correspondiente.
+Estos componentes describen el diseño funcional previsto para el visor y el tablero de la iniciativa. Los módulos e indicadores se habilitan de forma progresiva a medida que el equipo incorpora y valida cada conjunto de datos en el repositorio.
 
 - Mapa inicial con ámbito Conchagua–La Unión y selector de fecha del inventario.
 - Panel de caracterización de asentamientos y su relación con vías, usos del suelo y amenazas autorizadas.
@@ -16,4 +16,4 @@ Estos componentes constituyen una propuesta de interfaz basada en el perfil. La 
 
 ### Estados vacíos y navegación
 
-Cuando no haya resultado disponible, mostrar «Resultado pendiente» y explicar qué insumo falta. Conservar los datos faltantes como `null`; no dibujar geometrías inventadas, rellenar indicadores con cero ni presentar gráficos de ejemplo como mediciones. El botón de fork/clonación apunta al repositorio canónico verificado, no al repositorio general del portal.
+Para garantizar la transparencia técnica, las capas e indicadores en preparación se identifican explícitamente como pendientes hasta contar con datos verificados, evitando sustituir mediciones faltantes con valores simulados. Todos los enlaces de colaboración de esta página conectan directamente con el repositorio oficial de la iniciativa.

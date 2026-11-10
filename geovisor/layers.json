@@ -61,7 +61,7 @@
       "geometry_type": "polygon",
       "status": "en_preparacion",
       "source_path": null,
-      "expected_file_hint": "geovisor/data/conchagua_la_union_limites.geojson",
+      "expected_file_hint": "geovisor/capas/conchagua_la_union_limites.geojson",
       "resolution": "Vectorial administrativo oficial",
       "style": {
         "fill_color": "#14283F",
@@ -79,7 +79,7 @@
       "geometry_type": "polygon",
       "status": "en_preparacion",
       "source_path": null,
-      "expected_file_hint": "geovisor/data/asentamientos_conchagua_la_union.geojson",
+      "expected_file_hint": "geovisor/capas/asentamientos_conchagua_la_union.geojson",
       "resolution": "10 m (Sentinel-2 / Open Buildings) + revisión local",
       "style": {
         "fill_color": "#007F8B",
@@ -97,7 +97,7 @@
       "geometry_type": "polygon",
       "status": "en_preparacion",
       "source_path": null,
-      "expected_file_hint": "geovisor/data/caracterizacion_amenazas_la_union.geojson",
+      "expected_file_hint": "geovisor/capas/caracterizacion_amenazas_la_union.geojson",
       "resolution": "Escala distrital / asentamiento",
       "style": {
         "fill_color": "#e7298a",
