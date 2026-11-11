@@ -106,6 +106,132 @@
         "stroke_width": 1.2
       },
       "caveat": "Insumo analítico para MIVI/DOT/FONAVIPO; no constituye zonificación normativa aprobada."
+    },
+    {
+      "id": "sv-union-crecimiento-2019",
+      "title": "Crecimiento urbano 2019",
+      "group": "Asentamientos y cambio urbano",
+      "format": "geojson",
+      "geometry_type": "polygon",
+      "status": "en_revision",
+      "source_path": "geovisor/capas/Crecimiento_AH_LU_CH_2019.geojson",
+      "expected_file_hint": "geovisor/capas/Crecimiento_AH_LU_CH_2019.geojson",
+      "resolution": "Polígonos vectoriales; resolución del insumo no documentada",
+      "style": {
+        "fill_color": "#2563EB",
+        "fill_opacity": 0.35,
+        "stroke_color": "#1E40AF",
+        "stroke_width": 1.5
+      },
+      "caveat": "Insumo de crecimiento urbano del taller Copernicus; pendiente de validación metodológica e institucional. No equivale por sí solo a una delimitación oficial de asentamientos humanos."
+    },
+    {
+      "id": "sv-union-crecimiento-2020",
+      "title": "Crecimiento urbano 2020",
+      "group": "Asentamientos y cambio urbano",
+      "format": "geojson",
+      "geometry_type": "polygon",
+      "status": "en_revision",
+      "source_path": "geovisor/capas/Crecimiento_AH_LU_CH_2020.geojson",
+      "expected_file_hint": "geovisor/capas/Crecimiento_AH_LU_CH_2020.geojson",
+      "resolution": "Polígonos vectoriales; resolución del insumo no documentada",
+      "style": {
+        "fill_color": "#14B8A6",
+        "fill_opacity": 0.35,
+        "stroke_color": "#0F766E",
+        "stroke_width": 1.5
+      },
+      "caveat": "Insumo de crecimiento urbano del taller Copernicus; pendiente de validación metodológica e institucional. No equivale por sí solo a una delimitación oficial de asentamientos humanos."
+    },
+    {
+      "id": "sv-union-crecimiento-2021",
+      "title": "Crecimiento urbano 2021",
+      "group": "Asentamientos y cambio urbano",
+      "format": "geojson",
+      "geometry_type": "polygon",
+      "status": "en_revision",
+      "source_path": "geovisor/capas/Crecimiento_AH_LU_CH_2021.geojson",
+      "expected_file_hint": "geovisor/capas/Crecimiento_AH_LU_CH_2021.geojson",
+      "resolution": "Polígonos vectoriales; resolución del insumo no documentada",
+      "style": {
+        "fill_color": "#84CC16",
+        "fill_opacity": 0.35,
+        "stroke_color": "#4D7C0F",
+        "stroke_width": 1.5
+      },
+      "caveat": "Insumo de crecimiento urbano del taller Copernicus; pendiente de validación metodológica e institucional. No equivale por sí solo a una delimitación oficial de asentamientos humanos."
+    },
+    {
+      "id": "sv-union-crecimiento-2022",
+      "title": "Crecimiento urbano 2022",
+      "group": "Asentamientos y cambio urbano",
+      "format": "geojson",
+      "geometry_type": "polygon",
+      "status": "en_revision",
+      "source_path": "geovisor/capas/Crecimiento_AH_LU_CH_2022.geojson",
+      "expected_file_hint": "geovisor/capas/Crecimiento_AH_LU_CH_2022.geojson",
+      "resolution": "Polígonos vectoriales; resolución del insumo no documentada",
+      "style": {
+        "fill_color": "#EAB308",
+        "fill_opacity": 0.35,
+        "stroke_color": "#A16207",
+        "stroke_width": 1.5
+      },
+      "caveat": "Insumo de crecimiento urbano del taller Copernicus; pendiente de validación metodológica e institucional. No equivale por sí solo a una delimitación oficial de asentamientos humanos."
+    },
+    {
+      "id": "sv-union-crecimiento-2023",
+      "title": "Crecimiento urbano 2023",
+      "group": "Asentamientos y cambio urbano",
+      "format": "geojson",
+      "geometry_type": "polygon",
+      "status": "en_revision",
+      "source_path": "geovisor/capas/Crecimiento_AH_LU_CH_2023.geojson",
+      "expected_file_hint": "geovisor/capas/Crecimiento_AH_LU_CH_2023.geojson",
+      "resolution": "Polígonos vectoriales; resolución del insumo no documentada",
+      "style": {
+        "fill_color": "#F97316",
+        "fill_opacity": 0.35,
+        "stroke_color": "#C2410C",
+        "stroke_width": 1.5
+      },
+      "caveat": "Insumo de crecimiento urbano del taller Copernicus; pendiente de validación metodológica e institucional. No equivale por sí solo a una delimitación oficial de asentamientos humanos."
+    },
+    {
+      "id": "sv-union-crecimiento-2024",
+      "title": "Crecimiento urbano 2024",
+      "group": "Asentamientos y cambio urbano",
+      "format": "geojson",
+      "geometry_type": "polygon",
+      "status": "en_revision",
+      "source_path": "geovisor/capas/Crecimiento_AH_LU_CH_2024.geojson",
+      "expected_file_hint": "geovisor/capas/Crecimiento_AH_LU_CH_2024.geojson",
+      "resolution": "Polígonos vectoriales; resolución del insumo no documentada",
+      "style": {
+        "fill_color": "#E11D48",
+        "fill_opacity": 0.35,
+        "stroke_color": "#9F1239",
+        "stroke_width": 1.5
+      },
+      "caveat": "Insumo de crecimiento urbano del taller Copernicus; pendiente de validación metodológica e institucional. No equivale por sí solo a una delimitación oficial de asentamientos humanos."
+    },
+    {
+      "id": "sv-union-crecimiento-2025",
+      "title": "Crecimiento urbano 2025",
+      "group": "Asentamientos y cambio urbano",
+      "format": "geojson",
+      "geometry_type": "polygon",
+      "status": "en_revision",
+      "source_path": "geovisor/capas/Crecimiento_AH_LU_CH_2025.geojson",
+      "expected_file_hint": "geovisor/capas/Crecimiento_AH_LU_CH_2025.geojson",
+      "resolution": "Polígonos vectoriales; resolución del insumo no documentada",
+      "style": {
+        "fill_color": "#A855F7",
+        "fill_opacity": 0.35,
+        "stroke_color": "#7E22CE",
+        "stroke_width": 1.5
+      },
+      "caveat": "Insumo de crecimiento urbano del taller Copernicus; pendiente de validación metodológica e institucional. No equivale por sí solo a una delimitación oficial de asentamientos humanos."
     }
   ]
 }
