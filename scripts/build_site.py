@@ -925,6 +925,8 @@ def build_aplicacion_page(
           {badge_html(manifest['status']['demo'], 'Estado Demo')}
         </div>
         <h1>Geovisor del proyecto y espacio de integración de capas</h1>
+        <p style="color: #ffcc00; font-weight: 600; margin: 10px 0 4px;">Equipo de trabajo – Grupo 02, El Salvador</p>
+        <p style="color: #ffffff; margin: 0 0 12px;">Mario Rivas · Alex Renderos · Nolvia Ventura · Milton Vargas · Arturo Cardona</p>
         <p class="hero-lead">Visor integrado sobre MapLibre GL JS y proyecto exportable <code>geovisor/proyecto.geolibre.json</code> (v0.2.0) compatible con GeoLibre Studio.</p>
       </div>
     </section>
